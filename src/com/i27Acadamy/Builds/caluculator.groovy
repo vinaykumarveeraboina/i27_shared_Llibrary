@@ -4,7 +4,7 @@ package com.i27Acadamy.Builds;
 class caluculator{
     def jenkins
 
-   calculator(jenkins) {
+   caluculator(jenkins) {
             this.jenkins = jenkins
     }
 
