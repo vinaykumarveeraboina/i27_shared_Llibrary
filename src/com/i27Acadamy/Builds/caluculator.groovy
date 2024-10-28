@@ -1,10 +1,10 @@
 //For import we should you package , so that it will easy to call in pipelines
 
 package com.i27Acadamy.Builds;
-class Caluculator{
+class caluculator{
     def jenkins
 
-   Calculator(jenkins) {
+   calculator(jenkins) {
             this.jenkins = jenkins
     }
 
