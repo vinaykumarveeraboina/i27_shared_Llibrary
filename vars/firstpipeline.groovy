@@ -5,6 +5,9 @@ def call(MAP pipelineParams){
   Caluculator cals = new Caluculator(this)  //creating a constructure
 pipeline{
     agent any 
+    environments{
+        APP_NAME={pipelineparams.app_Name}
+    }
    stages{
     stage('addition')
     {
