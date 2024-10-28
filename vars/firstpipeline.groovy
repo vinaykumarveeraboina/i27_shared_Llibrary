@@ -4,6 +4,9 @@ import com.i27Acadamy.Builds.Caluculator;
   Caluculator cals = new Caluculator(this)  //creating a constructure
 pipeline{
     agent any 
+    def call(MAP pipelineParams){
+        library("com.i27.slb")
+    
    stages{
     stage('addition')
     {
@@ -15,4 +18,5 @@ pipeline{
         }
     }
    }
+}
 }
