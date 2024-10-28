@@ -4,7 +4,9 @@ package com.i27Acadamy.Builds;
 class Caluculator{
     def jenkins
 
-    this.jenkins=jenkins
+   Calculator(jenkins) {
+            this.jenkins = jenkins
+    }
 
     //need to create 2 methods Addition and subtraction
 
