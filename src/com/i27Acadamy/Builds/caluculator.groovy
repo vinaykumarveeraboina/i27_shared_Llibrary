@@ -1,6 +1,41 @@
 //For import we should you package , so that it will easy to call in pipelines
 
-package com.i27Acadamy.Builds;
+package com.i27academy.builds;
+class Calculator {
+    def jenkins
+    Calculator(jenkins) {
+            this.jenkins = jenkins
+    }
+
+    // Addition Method 
+    def add(firstNumber, secondNumber){
+        // logic 
+        return firstNumber+secondNumber
+    }
+
+    // Multiplication Metod
+    def multiply(firstNumber, secondNumber){
+        // login
+        return firstNumber+secondNumber
+    }
+
+    // sub
+    def sub(firstNumber, secondNumber) {
+        // logic
+        return firstNumber-secondNumber
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*package com.i27Acadamy.Builds;
 class caluculator{
     def jenkins
 
@@ -20,3 +55,4 @@ class caluculator{
    }
 
 }
+*/
