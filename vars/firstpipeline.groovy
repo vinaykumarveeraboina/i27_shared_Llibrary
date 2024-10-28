@@ -1,4 +1,4 @@
-import com.i27Acadamy.Builds.Caluculator; 
+import com.i27Acadamy.Builds.caluculator; 
   //importing build , inside builds we may have many groovys , so we are specifing caluculator(class name ) in import 
 def call(MAP pipelineParams){
         library("com.i27.slb")
