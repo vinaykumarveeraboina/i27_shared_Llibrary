@@ -2,7 +2,7 @@ import com.i27Acadamy.Builds.caluculator;
   //importing build , inside builds we may have many groovys , so we are specifing caluculator(class name ) in import 
 def call(Map pipelineParams){
         library("com.i27.slb")
-  caluculator cals = new caluculator(this)  //creating a constructure
+  caluculator caluculator = new caluculator(this)  //creating a constructure
 pipeline{
     agent any 
     environment {
@@ -14,7 +14,7 @@ pipeline{
         steps{
             script{
             echo "printing sum of 2 numbers"
-            println cals.add(3,4)
+            println caluculator.add(3,4)
         }
         }
     }
