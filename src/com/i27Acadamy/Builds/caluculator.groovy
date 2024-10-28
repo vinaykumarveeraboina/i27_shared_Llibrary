@@ -1,6 +1,6 @@
 //For import we should you package , so that it will easy to call in pipelines
 
-package com.i27academy.builds;
+package com.i27Acadamy.Builds;
 class Calculator {
     def jenkins
     Calculator(jenkins) {
